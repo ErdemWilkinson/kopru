@@ -1,0 +1,23 @@
+Kopru
+Copyright (C) 2026 Erdem Wilkinson
+
+Kopru is free software under the GNU General Public License, version 3 (see LICENSE).
+
+Parts of Kopru come from Beamer, by Toby George Read Kalkman (Kalkman Code),
+https://github.com/kalkman-code/beamer, also under GPL-3.0. They are used with
+little or no change:
+
+  core/effects.py, core/fx_*.py           crossing effects engine and families
+  core/return_edge.py, core/resistance_strip.py   edge pressure model
+  core/i18n.py, core/locale.py, locales/tr.po     translation
+  core/capture_types.py
+  app/effect_overlay.py, app/edge_glow.py, app/effect_previews.py,
+  app/frame_clock.py, app/motion.py, app/theme.py, app/titlebar.py,
+  app/tokens.py, app/tray_glyph.py        effect windows and styling
+  app/app_config.py (palette_colours only)
+  app/assets/ fonts: Hanken Grotesk and B612 Mono, SIL Open Font License
+  (see the *-OFL.txt files beside them)
+  and the tests in core/tests and app/tests that cover these files.
+
+Kopru runs these programs, which are installed separately and keep their own licences:
+  Virtual Display Driver (MIT), Sunshine (GPL-3.0), Moonlight (GPL-3.0).

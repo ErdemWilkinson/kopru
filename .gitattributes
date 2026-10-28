@@ -1,0 +1,5 @@
+# LF throughout; Git normalises on commit whichever machine the edit was made on.
+* text=auto eol=lf
+
+# Vendored as they came: a third party's licence and font files are not ours to reflow.
+app/assets/** -text
